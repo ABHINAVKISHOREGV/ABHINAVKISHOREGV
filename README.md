@@ -38,7 +38,7 @@ Here are some ideas to get you started:
 </ul>
 	
 <details>
-<summary> <h4><b>Acadamics </b></h4>📚</summary>
+<summary>Acadamics 📚</summary>
 <ul>
 	<li>Engineering**: <a href="http://siet.ac.in/">Sri Shakthi Institute of Engineering and Technology, Coimbatore</a></li>
   	<li>Schooling: <a href="https://amritavidyalayamcbse.com/">Amrita Vidyalayam, Nallampalayam, Coimbatore</a></li>
@@ -46,7 +46,7 @@ Here are some ideas to get you started:
 </details>
 
 <details>
-	<summary> <h4><b>$man ABHINAVKISHOREGV</b></h4> 👓 </summary>
+	<summary>$man ABHINAVKISHOREGV 👓 </summary>
 <ul>
   <li><a>I Know - Cybersecurity, Ethical Hacking, CCNA, Linux, Penetration Testing, Bug Hunting and many more in Computers and Technology. </a></li>
   <li>I am - Under Construction 💬</li>
