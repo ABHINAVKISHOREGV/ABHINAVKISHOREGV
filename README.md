@@ -34,12 +34,10 @@ Here are some ideas to get you started:
 	<li>🌱 I’m currently learning 		- Extream Web application penetration testing</li>
 	<li>💬 Ask me about   			- Anything related to computers </li>
 	<li>📫 How to reach me			- <a href='https://www.linkedin.com/in/abhinavkishore-g-v-6737b1183/'>LinkedIn</a>, <a href='mailto:kishorebolt60@gmail.com'>Email</a>.  </li>
-	<li>😄</li>
-	<li>⚡</li>
 </ul>
 	
 <details>
-<summary>Acadamics 📚</summary>
+<summary> <h3><b>Acadamics </b></h3>📚</summary>
 <ul>
 	<li>Engineering**: <a href="http://siet.ac.in/">Sri Shakthi Institute of Engineering and Technology, Coimbatore</a></li>
   	<li>Schooling: <a href="https://amritavidyalayamcbse.com/">Amrita Vidyalayam, Nallampalayam, Coimbatore</a></li>
@@ -47,7 +45,7 @@ Here are some ideas to get you started:
 </details>
 
 <details>
-<summary> $man kishorebolt03 👓 </summary>
+	<summary> <h3><b>$man ABHINAVKISHOREGV</b></h3> 👓 </summary>
 <ul>
   <li><a>I Know - Cybersecurity, Ethical Hacking, CCNA, Linux, Penetration Testing, Bug Hunting and many more in Computers and Technology. </a></li>
   <li>I am - Under Construction 💬</li>
