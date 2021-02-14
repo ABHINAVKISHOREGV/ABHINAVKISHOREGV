@@ -50,7 +50,7 @@ Here are some ideas to get you started:
 <ul>
   <li><a>I Know - Cybersecurity, Ethical Hacking, CCNA, Linux, Penetration Testing, Bug Hunting and many more in Computers and Technology. </a></li>
   <li>I am - Under Construction 💬</li>
-  <li><a> Tools - Python, C, C++, Java, Arduino, Linux (Kali, parrotOS, blackarch, backbox, fedora, ubuntu, etc), Windows (server2008, server2012, server2016), CircleCI, Docker, Git, AWS Cloud, Social_Engineering_Kit, Wireshark, Nmap, Nikto, Metasploit, Openvas, Netsparker, OWASP ZAP, Aircrack-ng  and much more. </a></li>
+  <li><a> Tools - Python, Bash, C, C++, Java, Arduino, Linux (Kali, parrotOS, blackarch, backbox, fedora, ubuntu, etc), Windows (server2008, server2012, server2016), CircleCI, Docker, Git, AWS Cloud, Social_Engineering_Kit, Wireshark, Nmap, Nikto, Metasploit, Openvas, Netsparker, OWASP ZAP, Aircrack-ng  and much more. </a></li>
 </ul>
 </details>
 
