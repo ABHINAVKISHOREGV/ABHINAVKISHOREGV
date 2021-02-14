@@ -1,4 +1,4 @@
-# Hi there 👋
+# #whoami 👋
 
 <!--
 **kishorebolt03/kishorebolt03** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -34,7 +34,7 @@ Here are some ideas to get you started:
 	<li>🔭 I’m currently working with  	- Rently</li>
 	<li>🌱 I’m currently learning 		- Extream Web application penetration testing</li>
 	<li>💬 Ask me about   			- Anything related to computers </li>
-	<li>📫 How to reach me			- <a href='https://www.linkedin.com/in/abhinavkishore-g-v-6737b1183/'>LinkedIn</a>, <a href='mailto:kishorebolt60@gmail.com'>Email</a>.  </li>
+	<li>📫 How to reach me			- <a href='https://www.linkedin.com/in/abhinavkishore-g-v-6737b1183/'>LinkedIn</a>, <a href='mailto:kishorebolt60@gmail.com'>Email</a>, <a href='https://twitter.com/Abhinav26088465'>Twitter</a>. </li>
 </ul>
 	
 <details>
