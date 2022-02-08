@@ -24,7 +24,7 @@ Here are some ideas to get you started:
 <img src="http://www.hackthebox.eu/badge/image/278404" alt="Hack The Box">
 <h2>  <a href="kishorebolt03.github.io">$whoami</a> </h2>
 <ul>
-	<li>Jr DevSecOps Software Engineer @<a href='https://www.rently.com'>Rently</a></li>
+	<li>Associate DevSecOps Software Engineer @<a href='https://www.rently.com'>Rently</a></li>
   	<li>CyberSecurity Enthusiast </li>
 	<li>Certified Ethical Hacker by <a href="https://www.promptinfotech.co.in/">Prompt InfoTech Coimbatore</a></li>
 	<li>Python Programmer</li>
