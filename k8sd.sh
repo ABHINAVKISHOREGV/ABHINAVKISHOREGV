@@ -3,37 +3,15 @@ I='false'
 ENV=$1
 
 check_file() {
-	if [ ! -f /.kube/$ENV.yaml ];then if [ -f ~/Downloads/$ENV.yaml ];then cp ~/Downloads/$ENV.yaml ~/.kube/$ENV.yaml; else echo "Download Kubeconfig file for $ENV cluster and store it in ~/.kube directory"; exit 1; fi fi
+	#echo $(whoami)
+	if [ -f "/home/$(whoami)/Downloads/$ENV.yaml" ];then echo "file found in Downloads" && cp "/home/$(whoami)/Downloads/$ENV.yaml" "/home/$(whoami)/.kube/$ENV.yaml"; if [ ! -f "/home/$(whoami)/.kube/$ENV.yaml" ];then echo "No yaml file found";exit 0;fi else echo "No ENV.yaml present in kube dir or dowloads dir"; exit 1;fi
 }
 
+env_list=("aura-qe" "core" "core-qe" "atlas" "white" "certify" "qe" "byte" "pt" "rnd" "certify")
 
-case $ENV in
-	aura)
-		ENV='dev' check_file
-		cp ~/.kube/dev.yaml ~/.kube/config
-		;;
-	atlas)
-		check_file
-		cp ~/.kube/atlas.yaml ~/.kube/config
-		;;
-	aura-qe)
-		check_file
-		cp ~/.kube/aura-qe.yaml ~/.kube/config
-		;;
-	core)
-		check_file
-		cp ~/.kube/core.yaml ~/.kube/config
-		;;
-	core-qe)
-		check_file
-		cp ~/.kube/core-qe.yaml ~/.kube/config
-		;;
-	*)
-		echo "Please mention env name."
-		echo "aura aura-qe core core-qe atlas"
-		I='true'
-    
-esac
+if [[ "$ENV" == "aura" ]];then ENV='dev';check_file;cp "/home/$(whoami)/.kube/$ENV.yaml" "/home/$(whoami)/.kube/config";fi
+
+if [[ ! " ${list[*]}" =~ " $value " ]]; then echo "$ENV"; check_file; cp "/home/$(whoami)/.kube/$ENV.yaml" "/home/$(whoami)/.kube/config"; else echo "Environment not listed available"; echo "below are the existing environments"; echo "aura aura-qe core core-qe atlas white certify qe byte pt rnd certify"; exit 0;fi
 
 if [[ $I == 'false' ]]
 then
@@ -61,7 +39,6 @@ alias mv='mv -i'
 alias k='kubectl' # Use k instead of kubectl 
 alias kd='kubectl -n protons' #Use kd instead of kubectl For DEV / AURA DEV Cluster""" > ${HOME}/k8sconfig/rently-$ENV/.bashrc
 	fi
-
 	cp -r "${HOME}/.kube" "${HOME}/k8sconfig/rently-$ENV/.kube"
 	docker run -it -h "rently-$ENV" --name "rently-$ENV"  -v "${HOME}/k8sconfig/rently-$ENV":/root --rm abhinavkishoregv/kctl-debian:latest bash -c "echo 'Use Kubectl commands just like your machine. You can also use the below aliases'; tail -n 2 ~/.bashrc && bash"
 fi
