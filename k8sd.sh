@@ -4,14 +4,14 @@ ENV=$1
 
 check_file() {
 	#echo $(whoami)
-	if [ -f "/home/$(whoami)/Downloads/$ENV.yaml" ];then echo "file found in Downloads" && cp "/home/$(whoami)/Downloads/$ENV.yaml" "/home/$(whoami)/.kube/$ENV.yaml"; if [ ! -f "/home/$(whoami)/.kube/$ENV.yaml" ];then echo "No yaml file found";exit 0;fi else echo "No ENV.yaml present in kube dir or dowloads dir"; exit 1;fi
+	if [ -f "${HOME}/Downloads/$ENV.yaml" ];then echo "file found in Downloads" && cp "${HOME}/Downloads/$ENV.yaml" "${HOME}/.kube/$ENV.yaml"; if [ ! -f "${HOME}/.kube/$ENV.yaml" ];then echo "No yaml file found";exit 0;fi else echo "No ENV.yaml present in kube dir or dowloads dir"; exit 1;fi
 }
 
-env_list=("aura-qe" "core" "core-qe" "atlas" "white" "certify" "qe" "byte" "pt" "rnd" "certify")
+env_list=("aura-qe" "core" "core-qe" "atlas" "white" "certify" "qe" "byte" "pt" "rnd" "certify" "pulse")
 
-if [[ "$ENV" == "aura" ]];then ENV='dev';check_file;cp "/home/$(whoami)/.kube/$ENV.yaml" "/home/$(whoami)/.kube/config";fi
+if [[ "$ENV" == "aura" ]];then ENV='dev';check_file;cp "${HOME}/.kube/$ENV.yaml" "${HOME}/.kube/config";fi
 
-if [[ ! " ${list[*]}" =~ " $value " ]]; then echo "$ENV"; check_file; cp "/home/$(whoami)/.kube/$ENV.yaml" "/home/$(whoami)/.kube/config"; else echo "Environment not listed available"; echo "below are the existing environments"; echo "aura aura-qe core core-qe atlas white certify qe byte pt rnd certify"; exit 0;fi
+if [[ ! " ${list[*]}" =~ " $value " ]]; then echo "$ENV"; check_file; cp "${HOME}/.kube/$ENV.yaml" "${HOME}/.kube/config"; else echo "Environment not listed available"; echo "below are the existing environments"; echo "aura aura-qe core core-qe atlas white certify qe byte pt rnd certify"; exit 0;fi
 
 if [[ $I == 'false' ]]
 then
