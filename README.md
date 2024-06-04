@@ -24,7 +24,7 @@ Here are some ideas to get you started:
 <img src="http://www.hackthebox.eu/badge/image/278404" alt="Hack The Box">
 <h2>  <a href="kishorebolt03.github.io">$whoami</a> </h2>
 <ul>
-	<li>Associate DevSecOps Engineer @<a href='https://www.rently.com'>Rently</a></li>
+	<li>DevSecOps / Cloud Security Engineer </li>
   	<li>CyberSecurity Enthusiast </li>
 	<li>Certified Ethical Hacker by <a href="https://www.promptinfotech.co.in/">Prompt InfoTech Coimbatore</a></li>
 	<li>Python Programmer</li>
@@ -33,9 +33,9 @@ Here are some ideas to get you started:
 </ul>
 	<h3>README.md</h3>
 <ul>
-	<li>🔭 I’m currently working with  	- Rently</li>
-	<li>🌱 I’m currently learning 		- Extream Web application penetration testing</li>
-	<li>💬 Ask me about   			- Anything related to computers </li>
+	<li>🔭 I’m currently working with  	- NA</li>
+	<li>🌱 I’m currently learning 		- DevSecOps / AWS Cloud Security </li>
+	<li>💬 Ask me about   			- Anything related to Cyber Security </li>
 	<li>📫 How to reach me			- <a href='https://www.linkedin.com/in/abhinavkishore-g-v-6737b1183/'>LinkedIn</a>, <a href='mailto:kishorebolt60@gmail.com'>Email</a>, <a href='https://twitter.com/Abhinav26088465'>Twitter</a>. </li>
 </ul>
 	
