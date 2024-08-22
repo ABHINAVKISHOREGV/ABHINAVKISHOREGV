@@ -37,5 +37,5 @@ alias k='kubectl' # Use k instead of kubectl
 """ > ${HOME}/k8sconfig/rently-$ENV/.bashrc
 	fi
 	cp -r "${HOME}/.kube" "${HOME}/k8sconfig/rently-$ENV/.kube"
-	docker run -it -h "rently-$ENV" --name "rently-$ENV"  -v "${HOME}/k8sconfig/rently-$ENV":/root --rm abhinavkishoregv/kctl-debian:latest bash -c "echo 'Hi, This is Abhinavkishore and Thank you for using my script. Use Kubectl commands just like your machine. You can also use the below aliases'; tail -n 1 ~/.bashrc && cd && bash"
+	docker run -it -h "rently-$ENV" --name "rently-$ENV"  -v "${HOME}/k8sconfig/rently-$ENV":/root --rm abhinavkishoregv/kctl-debian:latest bash -c "echo 'Hi, This is Abhinavkishore and Innuma indha script use pandrenga ????. Use Kubectl commands just like your machine. You can also use the below aliases'; tail -n 1 ~/.bashrc && cd && bash"
 fi
