@@ -31,8 +31,7 @@ Here are some ideas to get you started:
 <h2>  <a href="https://ABHINAVKISHOREGV.github.io">$whoami</a> </h2>
 <ul>
 	<li> CyberSecurity Enthusiast 🌱 </li>
-	<li> Ex Senior DevSecOps Engineer @<a href='https://use.rently.com'>Rently ✨</a></li>
-	<li> Certified Ethical Hacker by <a href="https://www.promptinfotech.co.in/">Prompt InfoTech Coimbatore ✨ </a></li>
+	<li> SDLC security | DevSecOps | AWS Security | K8s Security </li>
 	<li> Python Programmer</li>
 	<li> CTF Player</li>
 	<li> Computer Science Engineer</li>
